@@ -1,0 +1,14 @@
+#program to find factorial of a number
+print("Program to find the factorial of given number \n")
+n1= int(input("enter the number : "))
+factorial =1
+if(n1<0):
+  print("oops! the factorial of a negative number doesnot exist")
+
+elif(n1==0):
+  print("the factorial of 0 is ",1)
+
+else:
+  for i in range(1,n1+1):
+    factorial= factorial*i
+  print("the factorial of ", n1, " is : " ,factorial)
