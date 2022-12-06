@@ -1,1 +1,2 @@
-<h3>Program to find the factorial of given number in python</h3>
+# program to find the factorial of a given number
+
